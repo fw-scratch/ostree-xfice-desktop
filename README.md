@@ -1,6 +1,6 @@
 # XfIce Desktop
 
-This is an [rpm-ostree](https://coreos.github.io/rpm-ostree/)-based [Fedora](https://getfedora.org) Xfce desktop. The name "XfIce" alludes to the immutable -- or "frozen" -- nature of the base OS.
+This is an [rpm-ostree](https://coreos.github.io/rpm-ostree/)-based [Fedora](https://getfedora.org) Xfce desktop. The name "XfIce" alludes to the immutable, or "frozen", nature of the base OS.
 
 It is automatically built and published to my server on a weekly basis.
 

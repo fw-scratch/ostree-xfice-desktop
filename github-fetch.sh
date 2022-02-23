@@ -5,11 +5,11 @@
 set -eux
 
 # download latest repo build
-REPO_FINAL="$(dirname $0)/fedora-xfice"
+REPO_FINAL="$(dirname $0)/xfice-desktop"
 REPO="${REPO_FINAL}.new"
 
 CURL="curl -u token:$(cat ~/.config/github-token) --show-error --fail"
-RESPONSE=$($CURL --silent https://api.github.com/repos/hyperreal64/ostree-fedora-xfice/actions/artifacts)
+RESPONSE=$($CURL --silent https://api.github.com/repos/hyperreal64/ostree-xfice-desktop/actions/artifacts)
 ZIP=$(echo "$RESPONSE" | jq --raw-output '.artifacts | map(select(.name == "repository"))[0].archive_download_url')
 echo "INFO: Downloading $ZIP ..."
 [ -e /tmp/repository.zip ] || $CURL -L -o /tmp/repository.zip "$ZIP"
