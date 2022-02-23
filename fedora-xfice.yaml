@@ -1,0 +1,21 @@
+include: xfce-desktop-pkgs.yaml
+ref: fedora/35/${basearch}/xfice
+rojig:
+  name: fedora-xfce
+  summary: "Fedora XfIce (Xfce) base image"
+  license: MIT
+packages:
+  - fedora-release-xfce
+  # Generic release sub package for desktop variants
+  - fedora-release-ostree-desktop
+  # Portals for Flatpak
+  - xdg-desktop-portal-gtk
+  # XfIce packages
+  - xfce4-clipman-plugin
+  - xfce4-cpugraph-plugin
+  - xfce4-genmon-plugin
+  - xfce4-weather-plugin
+  - xfce4-whiskermenu-plugin
+repos:
+  - fedora-35
+  - fedora-35-updates
