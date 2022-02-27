@@ -10,12 +10,35 @@ packages:
   - fedora-release-ostree-desktop
   # Portals for Flatpak
   - xdg-desktop-portal-gtk
-  # XfIce packages
+  # @xfce-apps
+  - atril
+  - catfish
+  - galculator
+  - geany
+  - mousepad
+  - seahorse
+  - xarchiver
   - xfce4-clipman-plugin
+  - xfce4-dict-plugin
+  # @xfce-extra-plugins
+  - xfce4-battery-plugin
   - xfce4-cpugraph-plugin
+  - xfce4-diskperf-plugin
+  - xfce4-fsguard-plugin
   - xfce4-genmon-plugin
+  - xfce4-mailwatch-plugin
+  - xfce4-mount-plugin
+  - xfce4-netload-plugin
+  - xfce4-panel-profiles
+  - xfce4-sensors-plugin
+  - xfce4-systemload-plugin
+  - xfce4-time-out-plugin
+  - xfce4-verve-plugin
   - xfce4-weather-plugin
   - xfce4-whiskermenu-plugin
+  - xfce4-xkb-plugin
+  - xfdashboard
+  - xfdashboard-themes
 repos:
   - fedora-35
   - fedora-35-updates
