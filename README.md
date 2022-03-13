@@ -8,7 +8,7 @@ How to use it from an existing OSTree-based system like [Fedora CoreOS](https://
 
 Add my server URL as a new remote
 ```bash
-sudo ostree remote add --no-gpg-verify xfice https://unixcat.coffee/ostree/xfice-desktop/
+sudo ostree remote add --no-gpg-verify xfice https://ostree.unixcat.coffee/xfice-desktop/
 ```
 
 Pin your current ostree in case something breaks during or after the rebase
