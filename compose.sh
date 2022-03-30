@@ -10,4 +10,3 @@ if [ ! -d $REPO/objects ]; then
 fi
 
 rpm-ostree compose tree --unified-core --cachedir=$CACHE --repo=$REPO fedora-xfice.yaml
-ostree summary --repo=$REPO --update
